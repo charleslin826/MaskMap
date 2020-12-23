@@ -1,0 +1,48 @@
+//
+//  NetworkController.swift
+//  MaskMap
+//
+//  Created by CharlesLin on 2020/12/23.
+//
+
+import Foundation
+import Kanna
+
+class NetworkController: NSObject {
+    let queue = OperationQueue()
+    let urlStr = "https://raw.githubusercontent.com/kiang/pharmacies/master/json/points.json"
+    
+    override init() {}
+    
+    func fetchDailyQuote() -> String {
+        var quote = ""
+        let appledailyURL = URL(string: "https://tw.feature.appledaily.com/collection/dailyquote/20201223")!
+        let html = try! String(contentsOf: appledailyURL, encoding: .utf8)
+        do {
+            let doc = try HTML(html: html, encoding: .utf8)
+            let text = doc.xpath("/html/body[@class='dailyquote']/div[@class='wrapper']/article/div[@class='book']/div[@class='textbox']/div[@class='rwdfix']/p[2]").first!
+            quote = text.text ?? ""
+        } catch {
+            print("fetchDailyQuote failed.")
+        }
+        return quote
+    }
+    
+    func fetchPharmacyData(completionHandler: @escaping (Result<[PharmacyData], Error>) -> Void) {
+        if let url = URL(string: urlStr) {
+            URLSession.shared.dataTask(with: url) { data, response, error in
+                guard let data = data else {
+                    completionHandler(.failure(error!))
+                    return
+                }
+                if let unfilteredData = try? JSONDecoder().decode(Data.self, from: data) {
+                    var processedPharmacyDatas = unfilteredData.features.filter { $0.properties.county == "臺中市" }
+                    processedPharmacyDatas = processedPharmacyDatas.sorted { $0.properties.town < $1.properties.town }
+                    completionHandler(.success(processedPharmacyDatas))
+                }
+            }.resume()
+        } else {
+            print("no url")
+        }
+    }
+}
