@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5613CE392592F20D008B9022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5613CE372592F20D008B9022 /* Main.storyboard */; };
-		5613CE412592F210008B9022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5613CE3F2592F210008B9022 /* LaunchScreen.storyboard */; };
 		565832CE259370350037CF2C /* MaskPharmacyList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 565832C4259370340037CF2C /* MaskPharmacyList.xcdatamodeld */; };
 		565832CF259370350037CF2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565832C6259370340037CF2C /* ViewController.swift */; };
 		565832D0259370350037CF2C /* PharmacyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565832C7259370340037CF2C /* PharmacyData.swift */; };
@@ -17,14 +15,14 @@
 		565832D3259370350037CF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565832CA259370350037CF2C /* Assets.xcassets */; };
 		565832D4259370350037CF2C /* PharmacyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565832CB259370350037CF2C /* PharmacyCell.swift */; };
 		565832D5259370350037CF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565832CC259370350037CF2C /* AppDelegate.swift */; };
+		56583339259445F50037CF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56583335259445F50037CF2C /* Main.storyboard */; };
+		5658333A259445F50037CF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56583337259445F50037CF2C /* LaunchScreen.storyboard */; };
 		99EF286A8A205114D1EB12E5 /* Pods_MaskMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E16090781A40B6945EA207 /* Pods_MaskMap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50E16090781A40B6945EA207 /* Pods_MaskMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaskMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5613CE2E2592F20D008B9022 /* MaskPharmacyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskPharmacyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5613CE382592F20D008B9022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../MaskMap/MaskMap/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5613CE402592F210008B9022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../MaskMap/MaskMap/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		565832C5259370340037CF2C /* MaskMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaskMap.xcdatamodel; sourceTree = "<group>"; };
 		565832C6259370340037CF2C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = MaskPharmacyList/ViewController.swift; sourceTree = "<group>"; };
 		565832C7259370340037CF2C /* PharmacyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PharmacyData.swift; path = MaskPharmacyList/PharmacyData.swift; sourceTree = "<group>"; };
@@ -34,6 +32,8 @@
 		565832CB259370350037CF2C /* PharmacyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PharmacyCell.swift; path = MaskPharmacyList/PharmacyCell.swift; sourceTree = "<group>"; };
 		565832CC259370350037CF2C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MaskPharmacyList/AppDelegate.swift; sourceTree = "<group>"; };
 		565832CD259370350037CF2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MaskPharmacyList/Info.plist; sourceTree = "<group>"; };
+		56583336259445F50037CF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MaskPharmacyList/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56583338259445F50037CF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MaskPharmacyList/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		824AF9458D64B4A3BE299A4C /* Pods-MaskMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskMap.debug.xcconfig"; path = "Target Support Files/Pods-MaskMap/Pods-MaskMap.debug.xcconfig"; sourceTree = "<group>"; };
 		B7F775739799E75B563BB206 /* Pods-MaskMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskMap.release.xcconfig"; path = "Target Support Files/Pods-MaskMap/Pods-MaskMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,19 +80,51 @@
 		5613CE302592F20D008B9022 /* MaskPharmacyList */ = {
 			isa = PBXGroup;
 			children = (
-				565832C9259370340037CF2C /* NetworkController.swift */,
-				565832CB259370350037CF2C /* PharmacyCell.swift */,
-				565832C7259370340037CF2C /* PharmacyData.swift */,
+				5658333E2594460D0037CF2C /* Model */,
+				5658333D259446080037CF2C /* View */,
+				5658333F259446230037CF2C /* Controller */,
+				5658333C259445FE0037CF2C /* Network */,
 				565832C8259370340037CF2C /* SceneDelegate.swift */,
 				565832CC259370350037CF2C /* AppDelegate.swift */,
 				565832CA259370350037CF2C /* Assets.xcassets */,
 				565832CD259370350037CF2C /* Info.plist */,
-				565832C4259370340037CF2C /* MaskPharmacyList.xcdatamodeld */,
-				565832C6259370340037CF2C /* ViewController.swift */,
-				5613CE372592F20D008B9022 /* Main.storyboard */,
-				5613CE3F2592F210008B9022 /* LaunchScreen.storyboard */,
+				56583337259445F50037CF2C /* LaunchScreen.storyboard */,
+				56583335259445F50037CF2C /* Main.storyboard */,
 			);
 			name = MaskPharmacyList;
+			sourceTree = "<group>";
+		};
+		5658333C259445FE0037CF2C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				565832C9259370340037CF2C /* NetworkController.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		5658333D259446080037CF2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				565832CB259370350037CF2C /* PharmacyCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5658333E2594460D0037CF2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				565832C7259370340037CF2C /* PharmacyData.swift */,
+				565832C4259370340037CF2C /* MaskPharmacyList.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5658333F259446230037CF2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				565832C6259370340037CF2C /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		85C052C6B2E2C1910FFF9C8F /* Frameworks */ = {
@@ -162,9 +194,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5613CE412592F210008B9022 /* LaunchScreen.storyboard in Resources */,
+				5658333A259445F50037CF2C /* LaunchScreen.storyboard in Resources */,
 				565832D3259370350037CF2C /* Assets.xcassets in Resources */,
-				5613CE392592F20D008B9022 /* Main.storyboard in Resources */,
+				56583339259445F50037CF2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,18 +262,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5613CE372592F20D008B9022 /* Main.storyboard */ = {
+		56583335259445F50037CF2C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5613CE382592F20D008B9022 /* Base */,
+				56583336259445F50037CF2C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5613CE3F2592F210008B9022 /* LaunchScreen.storyboard */ = {
+		56583337259445F50037CF2C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5613CE402592F210008B9022 /* Base */,
+				56583338259445F50037CF2C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -435,8 +467,7 @@
 				565832C5259370340037CF2C /* MaskMap.xcdatamodel */,
 			);
 			currentVersion = 565832C5259370340037CF2C /* MaskMap.xcdatamodel */;
-			name = MaskPharmacyList.xcdatamodeld;
-			path = MaskPharmacyList/MaskPharmacyList.xcdatamodeld;
+			path = MaskPharmacyList.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

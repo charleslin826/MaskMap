@@ -38,6 +38,7 @@ class NetworkController: NSObject {
                 if let unfilteredData = try? JSONDecoder().decode(Data.self, from: data) {
                     var processedPharmacyDatas = unfilteredData.features.filter { $0.properties.county == "臺中市" }
                     processedPharmacyDatas = processedPharmacyDatas.sorted { $0.properties.town < $1.properties.town }
+                    
                     completionHandler(.success(processedPharmacyDatas))
                 }
             }.resume()
