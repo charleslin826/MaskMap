@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		565832CE259370350037CF2C /* MaskPharmacyList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 565832C4259370340037CF2C /* MaskPharmacyList.xcdatamodeld */; };
-		565832CF259370350037CF2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565832C6259370340037CF2C /* ViewController.swift */; };
 		565832D0259370350037CF2C /* PharmacyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565832C7259370340037CF2C /* PharmacyData.swift */; };
 		565832D1259370350037CF2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565832C8259370340037CF2C /* SceneDelegate.swift */; };
 		565832D2259370350037CF2C /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565832C9259370340037CF2C /* NetworkController.swift */; };
@@ -17,14 +15,19 @@
 		565832D5259370350037CF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565832CC259370350037CF2C /* AppDelegate.swift */; };
 		56583339259445F50037CF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56583335259445F50037CF2C /* Main.storyboard */; };
 		5658333A259445F50037CF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56583337259445F50037CF2C /* LaunchScreen.storyboard */; };
+		565833952595D1D50037CF2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565833942595D1D50037CF2C /* ViewController.swift */; };
+		5658339A2595D2D40037CF2C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565833992595D2D40037CF2C /* Utility.swift */; };
+		5658339F2595D2E10037CF2C /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658339C2595D2E10037CF2C /* Properties.swift */; };
+		565833A02595D2E10037CF2C /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658339D2595D2E10037CF2C /* JsonData.swift */; };
+		565833A12595D2E10037CF2C /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658339E2595D2E10037CF2C /* Pharmacy.swift */; };
+		565833B72595D3810037CF2C /* UserDefaultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565833B62595D3810037CF2C /* UserDefaultsModel.swift */; };
+		565833C32595D3DB0037CF2C /* MaskPharmacyList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 565833C12595D3DB0037CF2C /* MaskPharmacyList.xcdatamodeld */; };
 		99EF286A8A205114D1EB12E5 /* Pods_MaskMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E16090781A40B6945EA207 /* Pods_MaskMap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50E16090781A40B6945EA207 /* Pods_MaskMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaskMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5613CE2E2592F20D008B9022 /* MaskPharmacyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskPharmacyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		565832C5259370340037CF2C /* MaskMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaskMap.xcdatamodel; sourceTree = "<group>"; };
-		565832C6259370340037CF2C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = MaskPharmacyList/ViewController.swift; sourceTree = "<group>"; };
 		565832C7259370340037CF2C /* PharmacyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PharmacyData.swift; path = MaskPharmacyList/PharmacyData.swift; sourceTree = "<group>"; };
 		565832C8259370340037CF2C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = MaskPharmacyList/SceneDelegate.swift; sourceTree = "<group>"; };
 		565832C9259370340037CF2C /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = MaskPharmacyList/NetworkController.swift; sourceTree = "<group>"; };
@@ -34,6 +37,13 @@
 		565832CD259370350037CF2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MaskPharmacyList/Info.plist; sourceTree = "<group>"; };
 		56583336259445F50037CF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MaskPharmacyList/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56583338259445F50037CF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MaskPharmacyList/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		565833942595D1D50037CF2C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = MaskPharmacyList/ViewController.swift; sourceTree = "<group>"; };
+		565833992595D2D40037CF2C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = MaskPharmacyList/Utility.swift; sourceTree = "<group>"; };
+		5658339C2595D2E10037CF2C /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = MaskPharmacyList/Properties.swift; sourceTree = "<group>"; };
+		5658339D2595D2E10037CF2C /* JsonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JsonData.swift; path = MaskPharmacyList/JsonData.swift; sourceTree = "<group>"; };
+		5658339E2595D2E10037CF2C /* Pharmacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pharmacy.swift; path = MaskPharmacyList/Pharmacy.swift; sourceTree = "<group>"; };
+		565833B62595D3810037CF2C /* UserDefaultsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultsModel.swift; path = MaskPharmacyList/UserDefaultsModel.swift; sourceTree = "<group>"; };
+		565833C22595D3DB0037CF2C /* MaskMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaskMap.xcdatamodel; sourceTree = "<group>"; };
 		824AF9458D64B4A3BE299A4C /* Pods-MaskMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskMap.debug.xcconfig"; path = "Target Support Files/Pods-MaskMap/Pods-MaskMap.debug.xcconfig"; sourceTree = "<group>"; };
 		B7F775739799E75B563BB206 /* Pods-MaskMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskMap.release.xcconfig"; path = "Target Support Files/Pods-MaskMap/Pods-MaskMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +98,7 @@
 				565832CC259370350037CF2C /* AppDelegate.swift */,
 				565832CA259370350037CF2C /* Assets.xcassets */,
 				565832CD259370350037CF2C /* Info.plist */,
+				565833992595D2D40037CF2C /* Utility.swift */,
 				56583337259445F50037CF2C /* LaunchScreen.storyboard */,
 				56583335259445F50037CF2C /* Main.storyboard */,
 			);
@@ -114,7 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				565832C7259370340037CF2C /* PharmacyData.swift */,
-				565832C4259370340037CF2C /* MaskPharmacyList.xcdatamodeld */,
+				5658339D2595D2E10037CF2C /* JsonData.swift */,
+				5658339E2595D2E10037CF2C /* Pharmacy.swift */,
+				5658339C2595D2E10037CF2C /* Properties.swift */,
+				565833B62595D3810037CF2C /* UserDefaultsModel.swift */,
+				565833C12595D3DB0037CF2C /* MaskPharmacyList.xcdatamodeld */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -122,7 +137,7 @@
 		5658333F259446230037CF2C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				565832C6259370340037CF2C /* ViewController.swift */,
+				565833942595D1D50037CF2C /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -249,13 +264,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5658339F2595D2E10037CF2C /* Properties.swift in Sources */,
 				565832D4259370350037CF2C /* PharmacyCell.swift in Sources */,
+				565833B72595D3810037CF2C /* UserDefaultsModel.swift in Sources */,
 				565832D0259370350037CF2C /* PharmacyData.swift in Sources */,
 				565832D5259370350037CF2C /* AppDelegate.swift in Sources */,
-				565832CF259370350037CF2C /* ViewController.swift in Sources */,
 				565832D1259370350037CF2C /* SceneDelegate.swift in Sources */,
+				565833C32595D3DB0037CF2C /* MaskPharmacyList.xcdatamodeld in Sources */,
+				5658339A2595D2D40037CF2C /* Utility.swift in Sources */,
+				565833952595D1D50037CF2C /* ViewController.swift in Sources */,
 				565832D2259370350037CF2C /* NetworkController.swift in Sources */,
-				565832CE259370350037CF2C /* MaskPharmacyList.xcdatamodeld in Sources */,
+				565833A12595D2E10037CF2C /* Pharmacy.swift in Sources */,
+				565833A02595D2E10037CF2C /* JsonData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,12 +481,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		565832C4259370340037CF2C /* MaskPharmacyList.xcdatamodeld */ = {
+		565833C12595D3DB0037CF2C /* MaskPharmacyList.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				565832C5259370340037CF2C /* MaskMap.xcdatamodel */,
+				565833C22595D3DB0037CF2C /* MaskMap.xcdatamodel */,
 			);
-			currentVersion = 565832C5259370340037CF2C /* MaskMap.xcdatamodel */;
+			currentVersion = 565833C22595D3DB0037CF2C /* MaskMap.xcdatamodel */;
 			path = MaskPharmacyList.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

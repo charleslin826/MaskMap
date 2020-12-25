@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20B50" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="PharmacyEntity" representedClassName="PharmacyEntity" syncable="YES" codeGenerationType="class">
-        <attribute name="pharmacyData" optional="YES" attributeType="Transformable" customClassName="Data"/>
+    <entity name="JsonData" representedClassName="JsonData" syncable="YES" codeGenerationType="class">
+        <relationship name="pharmacies_" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pharmacy" inverseName="jsonData_" inverseEntity="Pharmacy"/>
+    </entity>
+    <entity name="Pharmacy" representedClassName="Pharmacy" syncable="YES" codeGenerationType="class">
+        <relationship name="jsonData_" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="JsonData" inverseName="pharmacies_" inverseEntity="JsonData"/>
+        <relationship name="properties_" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Properties" inverseName="pharmacy_" inverseEntity="Properties"/>
+    </entity>
+    <entity name="Properties" representedClassName="Properties" syncable="YES" codeGenerationType="class">
+        <attribute name="county_" optional="YES" attributeType="String"/>
+        <attribute name="name_" optional="YES" attributeType="String"/>
+        <attribute name="town_" optional="YES" attributeType="String"/>
+        <relationship name="pharmacy_" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pharmacy" inverseName="properties_" inverseEntity="Pharmacy"/>
     </entity>
     <elements>
-        <element name="PharmacyEntity" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="JsonData" positionX="-261.9550170898438" positionY="-25.56625366210938" width="128" height="44"/>
+        <element name="Pharmacy" positionX="-63" positionY="-18" width="128" height="59"/>
+        <element name="Properties" positionX="115.6756591796875" positionY="22.97723388671875" width="128" height="89"/>
     </elements>
 </model>
