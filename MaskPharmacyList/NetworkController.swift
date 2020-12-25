@@ -12,30 +12,24 @@ import CoreData
 class NetworkController: NSObject {
     let queue = OperationQueue()
     let urlStr = "https://raw.githubusercontent.com/kiang/pharmacies/master/json/points.json"
-//    let managedContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-//
-//
-//    // MARK: - NSFetchedResultsController
-//
-//    fileprivate lazy var fetchedResultsController: NSFetchedResultsController<JsonData> = {
-//        // Create Fetch Request
-//        let fetchRequest: NSFetchRequest<JsonData> = JsonData.fetchRequest()
-//
-//        // Configure Fetch Request
-//        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "pharmacies_", ascending: true)]
-//
-//        // Create Fetched Results Controller
-//        let fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: managedContext, sectionNameKeyPath: nil, cacheName: nil)
-//
-//        // Configure Fetched Results Controller
-//        fetchedResultsController.delegate = self
-//
-//        return fetchedResultsController
-//    }()
+    let managedContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    /*if let quotes = fetchedResultsController.fetchedObjects {
-     hasQuotes = quotes.count > 0
- }*/
+    // MARK: - NSFetchedResultsController
+    
+    lazy var fetchedResultsController: NSFetchedResultsController<Pharmacy> = {
+        
+        // Create Fetch Request
+        let fetchRequest: NSFetchRequest<Pharmacy> = Pharmacy.fetchRequest()
+        let predicate = NSPredicate(format: "properties_.county_ == %@", "臺中市")
+        fetchRequest.predicate = predicate
+        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "properties_.town_", ascending: true)]
+        
+        // Create Fetched Results Controller
+        let fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: managedContext, sectionNameKeyPath: nil, cacheName: nil)
+        
+        return fetchedResultsController
+    }()
+    
     
     override init() {}
     
