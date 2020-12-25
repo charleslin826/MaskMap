@@ -21,3 +21,7 @@ https://tw.feature.appledaily.com/collection/dailyquote
 6. 程式架構須符合 MVC-n
 
 https://academy.realm.io/posts/slug-marcus-zarra-exploring-mvcn-swift/
+
+
+Demo:
+![image](https://github.com/charleslin826/MaskPharmacyList/blob/charleslin826-patch-1/demo.gif)
