@@ -4,8 +4,9 @@
 target 'MaskPharmacyList' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-pod 'Kanna', '~> 5.2.2'
 
   # Pods for MaskPharmacyList
+
+pod 'Kanna', '~> 5.2.2'
 
 end

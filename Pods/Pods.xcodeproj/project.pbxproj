@@ -3,27 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D1B468789D0D8B21E85A718319CE5D /* Pods-MaskPharmacyList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724C4C17C00EAE871768F6D42266D7B /* Pods-MaskPharmacyList-dummy.m */; };
 		183ED56ED5A304D31BF95FB4FF100E09 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08941CDFC33D471397456EA14874A4 /* libxmlHTMLNode.swift */; };
 		1F5E8CC0E12AED9DEF1FA149713B3D29 /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9504041BB3B44A507605A0478D00FF /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4931A0D52921C13D6BE42385AB5F9A62 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C384A3CDDCDD7D63480D9C7A250665FA /* CSS.swift */; };
 		5649DC8F3E785DB6136A408EAE854679 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A07D2F2BF480E5B7CBB1D7D6FA636 /* libxmlParserOption.swift */; };
-		57A5F60B001BC60E98A6DE2C6F6C0921 /* Pods-MaskMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DB8D6DD8FBD4A3BF3DA0360D52A532 /* Pods-MaskMap-dummy.m */; };
+		627EA2DE1FB96AD6002887AF1A3F07A9 /* Pods-MaskPharmacyList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF539F07DBEFF3ACF8618E25DEDBA7AE /* Pods-MaskPharmacyList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		713679F510BE0BF69B3B198C0199C469 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920AC17EE40CA2535317270ADBC52FC /* libxmlHTMLDocument.swift */; };
 		77152C665E35672635B62E34D69478C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7E7940D14B3171915372AEB710F21CB4 /* Pods-MaskMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DACB84703428E66E261BE2C5B1D332 /* Pods-MaskMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F3565FA77BBFBA375A80855FAC59C52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		98A80A975711A029440E5197142990E9 /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A683CB777AD6B42445E222B31E7C9F /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F1523B4EDB43ABF65ADB49E3CDB823F /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6742F6D36F71D454816A744226D1E0 /* Kanna-dummy.m */; };
 		C9BE9617EFABC5E589FADF6F81B08EEE /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5582D0C12F4E64E2E1862EC39FC91BE /* Kanna.swift */; };
 		EC33DD6EFB5A6494B059FD762316B939 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83339B2C21731F421A184383447BEF /* Deprecated.swift */; };
-		EC5B01D356598F07FBD713DAF294EB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EAA6551432030A8191517876147CB767 /* PBXContainerItemProxy */ = {
+		99096A6DE307AA2CBF91F02B44C00CF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -33,49 +33,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013E9282809B189A80B36334ED23E2CB /* Pods-MaskPharmacyList-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaskPharmacyList-Info.plist"; sourceTree = "<group>"; };
 		025CBFFCEE7E56AE2DDB727790DCFB9B /* Kanna.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.debug.xcconfig; sourceTree = "<group>"; };
+		02A5A1CCB8A1B75BF29608B5F2AED06B /* Pods-MaskPharmacyList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaskPharmacyList.debug.xcconfig"; sourceTree = "<group>"; };
 		0A83339B2C21731F421A184383447BEF /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Kanna/Deprecated.swift; sourceTree = "<group>"; };
 		117A07D2F2BF480E5B7CBB1D7D6FA636 /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
 		2C9ABE235D3CE12F3B249A338E8E6E19 /* Kanna.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.release.xcconfig; sourceTree = "<group>"; };
-		36DB8D6DD8FBD4A3BF3DA0360D52A532 /* Pods-MaskMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaskMap-dummy.m"; sourceTree = "<group>"; };
-		3EA922F9B70178D64EE578C60F4DD23B /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3445F56B0FAF0A83E732E9599D97121F /* Pods-MaskPharmacyList-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaskPharmacyList-frameworks.sh"; sourceTree = "<group>"; };
+		3EA922F9B70178D64EE578C60F4DD23B /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kanna.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4724C4C17C00EAE871768F6D42266D7B /* Pods-MaskPharmacyList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaskPharmacyList-dummy.m"; sourceTree = "<group>"; };
 		4C6742F6D36F71D454816A744226D1E0 /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
 		526D28EE014C798EBB88B7F54A694184 /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kanna.modulemap; sourceTree = "<group>"; };
 		53AF0FAE236CFC7C94B8999E03F74986 /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79DACB84703428E66E261BE2C5B1D332 /* Pods-MaskMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaskMap-umbrella.h"; sourceTree = "<group>"; };
 		7C08941CDFC33D471397456EA14874A4 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/Kanna/libxmlHTMLNode.swift; sourceTree = "<group>"; };
-		8F3F7C29C9830354107AE88CB9607055 /* Pods-MaskMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaskMap.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7586157DDCAB79E9F861A00278BDAF8 /* Pods-MaskMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaskMap-Info.plist"; sourceTree = "<group>"; };
-		AEA7BDA73366CF9E6AA353F9017F057B /* Pods_MaskMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaskMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFDC3C68AA16B032404315CF8342101 /* Pods-MaskPharmacyList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaskPharmacyList.modulemap"; sourceTree = "<group>"; };
+		A8058A1D6A4BFEBD1C5C81870FACB3E2 /* Pods_MaskPharmacyList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaskPharmacyList.framework; path = "Pods-MaskPharmacyList.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC418882A8247EEF8A6B13102A03CA6F /* Pods-MaskPharmacyList-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaskPharmacyList-acknowledgements.plist"; sourceTree = "<group>"; };
 		AEC68671DBA4B7443CD975F742A3DDBA /* Kanna-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kanna-Info.plist"; sourceTree = "<group>"; };
-		C31107D19B15C1F967387D0C79B5D790 /* Pods-MaskMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaskMap-frameworks.sh"; sourceTree = "<group>"; };
+		AF539F07DBEFF3ACF8618E25DEDBA7AE /* Pods-MaskPharmacyList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaskPharmacyList-umbrella.h"; sourceTree = "<group>"; };
 		C384A3CDDCDD7D63480D9C7A250665FA /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/Kanna/CSS.swift; sourceTree = "<group>"; };
 		D920AC17EE40CA2535317270ADBC52FC /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
-		DF94C488CA63D5BB45383F9897B3884D /* Pods-MaskMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaskMap-acknowledgements.plist"; sourceTree = "<group>"; };
-		E82BCF12E9B554DFBC171CDB07733EDA /* Pods-MaskMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaskMap-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EF10C9ABCF0DAA9696467B2AA88D6AE9 /* Pods-MaskMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaskMap.debug.xcconfig"; sourceTree = "<group>"; };
+		E4CF588DD7B039E11D3DB13FD2AC5CC4 /* Pods-MaskPharmacyList-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaskPharmacyList-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3A683CB777AD6B42445E222B31E7C9F /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna/Kanna.h; sourceTree = "<group>"; };
 		F5582D0C12F4E64E2E1862EC39FC91BE /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
-		FA1C8F8B9C192EA2FFBC533D6DB8A5A8 /* Pods-MaskMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaskMap.modulemap"; sourceTree = "<group>"; };
+		F56460A7DAA69934894AD8CE58DA5C9B /* Pods-MaskPharmacyList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaskPharmacyList.release.xcconfig"; sourceTree = "<group>"; };
 		FE9504041BB3B44A507605A0478D00FF /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16959F4087FF44A1527904E2FF06466B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC5B01D356598F07FBD713DAF294EB14 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BD040212932C464BD48E25437FBFD03C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				77152C665E35672635B62E34D69478C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8E7CAAF7326FF1C2C02706D6220C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3565FA77BBFBA375A80855FAC59C52 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,15 +105,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4BC416EFE283754CA7E2B1A940B05525 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3EA922F9B70178D64EE578C60F4DD23B /* Kanna.framework */,
-				AEA7BDA73366CF9E6AA353F9017F057B /* Pods_MaskMap.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5672C2D6CCB9AE4788F800458CFCF0AE /* Kanna */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +117,7 @@
 				117A07D2F2BF480E5B7CBB1D7D6FA636 /* libxmlParserOption.swift */,
 				155418EE731BC926FEB8C7D5ACCD6B74 /* Support Files */,
 			);
+			name = Kanna;
 			path = Kanna;
 			sourceTree = "<group>";
 		};
@@ -137,29 +129,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9C40276921BC471197069E1F555BD513 /* Targets Support Files */ = {
+		90B04ACDE64D5256253CC288988C4427 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADF1773D89597570CA8A902525D00339 /* Pods-MaskMap */,
+				3EA922F9B70178D64EE578C60F4DD23B /* Kanna.framework */,
+				A8058A1D6A4BFEBD1C5C81870FACB3E2 /* Pods_MaskPharmacyList.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		ADF1773D89597570CA8A902525D00339 /* Pods-MaskMap */ = {
+		A233009613BB9A0EF18E9A008089A757 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA1C8F8B9C192EA2FFBC533D6DB8A5A8 /* Pods-MaskMap.modulemap */,
-				E82BCF12E9B554DFBC171CDB07733EDA /* Pods-MaskMap-acknowledgements.markdown */,
-				DF94C488CA63D5BB45383F9897B3884D /* Pods-MaskMap-acknowledgements.plist */,
-				36DB8D6DD8FBD4A3BF3DA0360D52A532 /* Pods-MaskMap-dummy.m */,
-				C31107D19B15C1F967387D0C79B5D790 /* Pods-MaskMap-frameworks.sh */,
-				A7586157DDCAB79E9F861A00278BDAF8 /* Pods-MaskMap-Info.plist */,
-				79DACB84703428E66E261BE2C5B1D332 /* Pods-MaskMap-umbrella.h */,
-				EF10C9ABCF0DAA9696467B2AA88D6AE9 /* Pods-MaskMap.debug.xcconfig */,
-				8F3F7C29C9830354107AE88CB9607055 /* Pods-MaskMap.release.xcconfig */,
+				E5530534C793B9ECCD06A9C2E53A92A3 /* Pods-MaskPharmacyList */,
 			);
-			name = "Pods-MaskMap";
-			path = "Target Support Files/Pods-MaskMap";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -168,8 +152,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				31660038A48EA5F471663966436524E8 /* Pods */,
-				4BC416EFE283754CA7E2B1A940B05525 /* Products */,
-				9C40276921BC471197069E1F555BD513 /* Targets Support Files */,
+				90B04ACDE64D5256253CC288988C4427 /* Products */,
+				A233009613BB9A0EF18E9A008089A757 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,14 +165,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E5530534C793B9ECCD06A9C2E53A92A3 /* Pods-MaskPharmacyList */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDC3C68AA16B032404315CF8342101 /* Pods-MaskPharmacyList.modulemap */,
+				E4CF588DD7B039E11D3DB13FD2AC5CC4 /* Pods-MaskPharmacyList-acknowledgements.markdown */,
+				AC418882A8247EEF8A6B13102A03CA6F /* Pods-MaskPharmacyList-acknowledgements.plist */,
+				4724C4C17C00EAE871768F6D42266D7B /* Pods-MaskPharmacyList-dummy.m */,
+				3445F56B0FAF0A83E732E9599D97121F /* Pods-MaskPharmacyList-frameworks.sh */,
+				013E9282809B189A80B36334ED23E2CB /* Pods-MaskPharmacyList-Info.plist */,
+				AF539F07DBEFF3ACF8618E25DEDBA7AE /* Pods-MaskPharmacyList-umbrella.h */,
+				02A5A1CCB8A1B75BF29608B5F2AED06B /* Pods-MaskPharmacyList.debug.xcconfig */,
+				F56460A7DAA69934894AD8CE58DA5C9B /* Pods-MaskPharmacyList.release.xcconfig */,
+			);
+			name = "Pods-MaskPharmacyList";
+			path = "Target Support Files/Pods-MaskPharmacyList";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		88416A984030A9B62F17184B5A6B03A6 /* Headers */ = {
+		C58D996D20155C4EF90B63624149758A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E7940D14B3171915372AEB710F21CB4 /* Pods-MaskMap-umbrella.h in Headers */,
+				627EA2DE1FB96AD6002887AF1A3F07A9 /* Pods-MaskPharmacyList-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,25 +205,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2BF1400796DCD7BB413B50B3E6DF02B7 /* Pods-MaskMap */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D4C2D1597C3D57C3806AD1493631915 /* Build configuration list for PBXNativeTarget "Pods-MaskMap" */;
-			buildPhases = (
-				88416A984030A9B62F17184B5A6B03A6 /* Headers */,
-				0C6AA5D380B7EE50960F7D4082FC2A16 /* Sources */,
-				16959F4087FF44A1527904E2FF06466B /* Frameworks */,
-				935B8584366021998A12FAC50460431D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				071E63B8F7E87E2BCD0073AD823C520F /* PBXTargetDependency */,
-			);
-			name = "Pods-MaskMap";
-			productName = "Pods-MaskMap";
-			productReference = AEA7BDA73366CF9E6AA353F9017F057B /* Pods_MaskMap.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A4AEBE015FDE4C158608D0B493CB29F /* Build configuration list for PBXNativeTarget "Kanna" */;
@@ -241,6 +223,25 @@
 			productReference = 3EA922F9B70178D64EE578C60F4DD23B /* Kanna.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D448E4E525A8FFE0A39D4847A78C189A /* Pods-MaskPharmacyList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49517F5F2C24EC0106134C243EFB75E8 /* Build configuration list for PBXNativeTarget "Pods-MaskPharmacyList" */;
+			buildPhases = (
+				C58D996D20155C4EF90B63624149758A /* Headers */,
+				7AD342BC9F1B415EB7B81742951C1225 /* Sources */,
+				EE8E7CAAF7326FF1C2C02706D6220C8B /* Frameworks */,
+				ED711F4DF77ABEEC2CE6A534FB0E7557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5127FC950532D54D10C2995CD3A26677 /* PBXTargetDependency */,
+			);
+			name = "Pods-MaskPharmacyList";
+			productName = "Pods-MaskPharmacyList";
+			productReference = A8058A1D6A4BFEBD1C5C81870FACB3E2 /* Pods_MaskPharmacyList.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -248,10 +249,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -259,25 +260,25 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4BC416EFE283754CA7E2B1A940B05525 /* Products */;
+			productRefGroup = 90B04ACDE64D5256253CC288988C4427 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */,
-				2BF1400796DCD7BB413B50B3E6DF02B7 /* Pods-MaskMap */,
+				D448E4E525A8FFE0A39D4847A78C189A /* Pods-MaskPharmacyList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		935B8584366021998A12FAC50460431D /* Resources */ = {
+		D20FACCE86A71BB5A35B83189D2F40FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D20FACCE86A71BB5A35B83189D2F40FA /* Resources */ = {
+		ED711F4DF77ABEEC2CE6A534FB0E7557 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,14 +288,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C6AA5D380B7EE50960F7D4082FC2A16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57A5F60B001BC60E98A6DE2C6F6C0921 /* Pods-MaskMap-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		16CE5D8FE9C68C5D927D695CD44D7F84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,55 +302,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AD342BC9F1B415EB7B81742951C1225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D1B468789D0D8B21E85A718319CE5D /* Pods-MaskPharmacyList-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		071E63B8F7E87E2BCD0073AD823C520F /* PBXTargetDependency */ = {
+		5127FC950532D54D10C2995CD3A26677 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kanna;
 			target = 93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */;
-			targetProxy = EAA6551432030A8191517876147CB767 /* PBXContainerItemProxy */;
+			targetProxy = 99096A6DE307AA2CBF91F02B44C00CF4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0772F95409CF5B7AF2EB5F382D9B9AA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF10C9ABCF0DAA9696467B2AA88D6AE9 /* Pods-MaskMap.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MaskMap/Pods-MaskMap-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MaskMap/Pods-MaskMap.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -424,9 +388,9 @@
 			};
 			name = Debug;
 		};
-		515180B5DF2CAA2BC7FB79689BE8B78E /* Release */ = {
+		2A6B5FF931C72B40611169A382C6ECF1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F3F7C29C9830354107AE88CB9607055 /* Pods-MaskMap.release.xcconfig */;
+			baseConfigurationReference = F56460A7DAA69934894AD8CE58DA5C9B /* Pods-MaskPharmacyList.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -438,7 +402,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MaskMap/Pods-MaskMap-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaskPharmacyList/Pods-MaskPharmacyList-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,7 +411,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MaskMap/Pods-MaskMap.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MaskPharmacyList/Pods-MaskPharmacyList.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -477,7 +441,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kanna/Kanna-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,6 +460,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7DE5E2F59175458FBD4DBB4721457494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A5A1CCB8A1B75BF29608B5F2AED06B /* Pods-MaskPharmacyList.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaskPharmacyList/Pods-MaskPharmacyList-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaskPharmacyList/Pods-MaskPharmacyList.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		92A3E9AC052A7345115439021B218E3B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -574,7 +575,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kanna/Kanna-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,11 +606,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D4C2D1597C3D57C3806AD1493631915 /* Build configuration list for PBXNativeTarget "Pods-MaskMap" */ = {
+		49517F5F2C24EC0106134C243EFB75E8 /* Build configuration list for PBXNativeTarget "Pods-MaskPharmacyList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0772F95409CF5B7AF2EB5F382D9B9AA1 /* Debug */,
-				515180B5DF2CAA2BC7FB79689BE8B78E /* Release */,
+				7DE5E2F59175458FBD4DBB4721457494 /* Debug */,
+				2A6B5FF931C72B40611169A382C6ECF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

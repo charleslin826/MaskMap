@@ -22,11 +22,14 @@
 		565833A12595D2E10037CF2C /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658339E2595D2E10037CF2C /* Pharmacy.swift */; };
 		565833B72595D3810037CF2C /* UserDefaultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565833B62595D3810037CF2C /* UserDefaultsModel.swift */; };
 		565833C32595D3DB0037CF2C /* MaskPharmacyList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 565833C12595D3DB0037CF2C /* MaskPharmacyList.xcdatamodeld */; };
-		99EF286A8A205114D1EB12E5 /* Pods_MaskMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E16090781A40B6945EA207 /* Pods_MaskMap.framework */; };
+		565833D02595ED8D0037CF2C /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565833CF2595ED8D0037CF2C /* ReachabilityManager.swift */; };
+		5C2DE666B233563C759FC4A1 /* Pods_MaskPharmacyList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482C6FE84A7197230C7AC035 /* Pods_MaskPharmacyList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		50E16090781A40B6945EA207 /* Pods_MaskMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaskMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		482C6FE84A7197230C7AC035 /* Pods_MaskPharmacyList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaskPharmacyList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC4EA5DEC10D58A8F1C500F /* Pods-MaskPharmacyList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskPharmacyList.release.xcconfig"; path = "Target Support Files/Pods-MaskPharmacyList/Pods-MaskPharmacyList.release.xcconfig"; sourceTree = "<group>"; };
+		53F47C726BDF3BBB01C458B1 /* Pods-MaskPharmacyList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskPharmacyList.debug.xcconfig"; path = "Target Support Files/Pods-MaskPharmacyList/Pods-MaskPharmacyList.debug.xcconfig"; sourceTree = "<group>"; };
 		5613CE2E2592F20D008B9022 /* MaskPharmacyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskPharmacyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		565832C7259370340037CF2C /* PharmacyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PharmacyData.swift; path = MaskPharmacyList/PharmacyData.swift; sourceTree = "<group>"; };
 		565832C8259370340037CF2C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = MaskPharmacyList/SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +47,7 @@
 		5658339E2595D2E10037CF2C /* Pharmacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pharmacy.swift; path = MaskPharmacyList/Pharmacy.swift; sourceTree = "<group>"; };
 		565833B62595D3810037CF2C /* UserDefaultsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultsModel.swift; path = MaskPharmacyList/UserDefaultsModel.swift; sourceTree = "<group>"; };
 		565833C22595D3DB0037CF2C /* MaskMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaskMap.xcdatamodel; sourceTree = "<group>"; };
-		824AF9458D64B4A3BE299A4C /* Pods-MaskMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskMap.debug.xcconfig"; path = "Target Support Files/Pods-MaskMap/Pods-MaskMap.debug.xcconfig"; sourceTree = "<group>"; };
-		B7F775739799E75B563BB206 /* Pods-MaskMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskMap.release.xcconfig"; path = "Target Support Files/Pods-MaskMap/Pods-MaskMap.release.xcconfig"; sourceTree = "<group>"; };
+		565833CF2595ED8D0037CF2C /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99EF286A8A205114D1EB12E5 /* Pods_MaskMap.framework in Frameworks */,
+				5C2DE666B233563C759FC4A1 /* Pods_MaskPharmacyList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +65,8 @@
 		330173D2F12EE9A10DC4BD25 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				824AF9458D64B4A3BE299A4C /* Pods-MaskMap.debug.xcconfig */,
-				B7F775739799E75B563BB206 /* Pods-MaskMap.release.xcconfig */,
+				53F47C726BDF3BBB01C458B1 /* Pods-MaskPharmacyList.debug.xcconfig */,
+				4BC4EA5DEC10D58A8F1C500F /* Pods-MaskPharmacyList.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -75,7 +77,7 @@
 				5613CE302592F20D008B9022 /* MaskPharmacyList */,
 				5613CE2F2592F20D008B9022 /* Products */,
 				330173D2F12EE9A10DC4BD25 /* Pods */,
-				85C052C6B2E2C1910FFF9C8F /* Frameworks */,
+				8B53643620D13FCF36CD8CAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,10 +97,10 @@
 				5658333F259446230037CF2C /* Controller */,
 				5658333C259445FE0037CF2C /* Network */,
 				565832C8259370340037CF2C /* SceneDelegate.swift */,
+				565833992595D2D40037CF2C /* Utility.swift */,
 				565832CC259370350037CF2C /* AppDelegate.swift */,
 				565832CA259370350037CF2C /* Assets.xcassets */,
 				565832CD259370350037CF2C /* Info.plist */,
-				565833992595D2D40037CF2C /* Utility.swift */,
 				56583337259445F50037CF2C /* LaunchScreen.storyboard */,
 				56583335259445F50037CF2C /* Main.storyboard */,
 			);
@@ -108,6 +110,7 @@
 		5658333C259445FE0037CF2C /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				565833CF2595ED8D0037CF2C /* ReachabilityManager.swift */,
 				565832C9259370340037CF2C /* NetworkController.swift */,
 			);
 			name = Network;
@@ -142,10 +145,10 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		85C052C6B2E2C1910FFF9C8F /* Frameworks */ = {
+		8B53643620D13FCF36CD8CAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				50E16090781A40B6945EA207 /* Pods_MaskMap.framework */,
+				482C6FE84A7197230C7AC035 /* Pods_MaskPharmacyList.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,11 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5613CE452592F210008B9022 /* Build configuration list for PBXNativeTarget "MaskPharmacyList" */;
 			buildPhases = (
-				1219811C223EB23396DBC03C /* [CP] Check Pods Manifest.lock */,
+				0464D30D00B3B678889792EA /* [CP] Check Pods Manifest.lock */,
 				5613CE2A2592F20D008B9022 /* Sources */,
 				5613CE2B2592F20D008B9022 /* Frameworks */,
 				5613CE2C2592F20D008B9022 /* Resources */,
-				BFF64835F823B57476DE8AAF /* [CP] Embed Pods Frameworks */,
+				461B18FBDE0BDC6B2B7A5235 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,7 +221,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1219811C223EB23396DBC03C /* [CP] Check Pods Manifest.lock */ = {
+		0464D30D00B3B678889792EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,28 +236,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MaskMap-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MaskPharmacyList-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BFF64835F823B57476DE8AAF /* [CP] Embed Pods Frameworks */ = {
+		461B18FBDE0BDC6B2B7A5235 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaskMap/Pods-MaskMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MaskPharmacyList/Pods-MaskPharmacyList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaskMap/Pods-MaskMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MaskPharmacyList/Pods-MaskPharmacyList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaskMap/Pods-MaskMap-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaskPharmacyList/Pods-MaskPharmacyList-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565833D02595ED8D0037CF2C /* ReachabilityManager.swift in Sources */,
 				5658339F2595D2E10037CF2C /* Properties.swift in Sources */,
 				565832D4259370350037CF2C /* PharmacyCell.swift in Sources */,
 				565833B72595D3810037CF2C /* UserDefaultsModel.swift in Sources */,
@@ -419,7 +423,7 @@
 		};
 		5613CE462592F210008B9022 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 824AF9458D64B4A3BE299A4C /* Pods-MaskMap.debug.xcconfig */;
+			baseConfigurationReference = 53F47C726BDF3BBB01C458B1 /* Pods-MaskPharmacyList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,7 +443,7 @@
 		};
 		5613CE472592F210008B9022 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7F775739799E75B563BB206 /* Pods-MaskMap.release.xcconfig */;
+			baseConfigurationReference = 4BC4EA5DEC10D58A8F1C500F /* Pods-MaskPharmacyList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

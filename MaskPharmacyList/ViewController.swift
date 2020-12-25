@@ -19,7 +19,13 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         networkController.fetchedResultsController.delegate = self
         setupView()
-        fetch()
+        
+        if Reachability.isConnectedToNetwork() {
+            fetch()
+        } else {
+            fetchContext()
+        }
+        
     }
  
     func setupView() {

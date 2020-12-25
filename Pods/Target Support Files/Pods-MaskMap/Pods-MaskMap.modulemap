@@ -1,6 +1,0 @@
-framework module Pods_MaskMap {
-  umbrella header "Pods-MaskMap-umbrella.h"
-
-  export *
-  module * { export * }
-}
